@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="10" style="-fx-background-color: #191970;"
+      xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21"
+      fx:controller="com.example.controller.GameController">
+    <AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: black;">
+        <children>
+            <GridPane fx:id="gridPane" alignment="CENTER" gridLinesVisible="true" layoutX="25.0" prefHeight="550.0"
+                      prefWidth="750.0" style="-fx-background-color: orange;">
+                <!-- Buttons will be added programmatically -->
+            </GridPane>
+            <Label fx:id="timerLabel" layoutX="103.0" layoutY="564.0" text="60" textFill="#e4e1e1"/>
+            <Button layoutX="7.0" layoutY="560.0" maxHeight="-Infinity" maxWidth="-Infinity" onAction="#toggleMusic"
+                    style="-fx-background-color: FFE4B5;" text="Toggle Music"/>
+        </children>
+    </AnchorPane>
+</VBox>

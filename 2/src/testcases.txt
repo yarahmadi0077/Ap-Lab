@@ -1,0 +1,34 @@
+/*
+my test cases:
+---------------------------------
+5
+mohammad yarahmadi 1234567 32
+alireza safari 7654321 18
+ali desert 12345678 10
+ayn mey 4023102 20
+amin frahbakhsh 87654321 0
+
+output = 12
+---------------------------------
+
+---------------------------------
+10
+mohammad yarahmadi 1234567 32
+alireza safari 7654321 18
+ali desert 12345678 10
+ayn mey 4023102 20
+amin frahbakhsh 87654321 0
+ali barzegar 4025874 6
+adnan heydari 7896541 14
+ali nikmanash 4569874 2
+abas entezari 4023108 -6
+parsa exir 4021568 20
+
+output = 11.25
+-------------------------------
+
+
+
+******************************
+اگر نمره در بازه صحیحی قرار نداشته باشد در میانگین محاسبه نخواهد شد.
+*/
